@@ -1,0 +1,264 @@
+[
+  {
+    "name": "Meridian Holdings Inc.",
+    "jurisdiction": "DE",
+    "entity_type": "corporation",
+    "formation_date_offset": -1825,
+    "registered_agent_name": "Corporation Service Company",
+    "registered_agent_address": "251 Little Falls Drive, Wilmington, DE 19808",
+    "good_standing": true,
+    "notes": "Top-level holding company for the Meridian corporate family.",
+    "officers": [
+      {"name": "Sarah Chen", "title": "officer", "role": "CEO", "term_start_offset": -730, "email": "schen@meridian.example.com"},
+      {"name": "David Park", "title": "officer", "role": "CFO", "term_start_offset": -365, "email": "dpark@meridian.example.com"},
+      {"name": "Lisa Rodríguez", "title": "officer", "role": "General Counsel", "term_start_offset": -1095, "email": "lrodriguez@meridian.example.com"},
+      {"name": "James Wilson", "title": "director", "role": "Board Chair", "term_start_offset": -1825, "email": "jwilson@meridian.example.com"},
+      {"name": "Aisha Patel", "title": "director", "role": "Director", "term_start_offset": -1460, "email": "apatel@meridian.example.com"},
+      {"name": "Robert Kim", "title": "both", "role": "Secretary & Director", "term_start_offset": -1095, "email": "rkim@meridian.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Annual Report", "jurisdiction": "DE", "due_date_offset": 25, "status": "pending"},
+      {"filing_type": "Franchise Tax", "jurisdiction": "DE", "due_date_offset": 60, "status": "pending"},
+      {"filing_type": "Annual Report", "jurisdiction": "DE", "due_date_offset": -5, "status": "overdue", "notes": "Needs immediate attention"}
+    ],
+    "documents": [
+      {"title": "Certificate of Incorporation", "document_type": "formation", "url": "https://docs.example.com/meridian/cert-of-inc.pdf"},
+      {"title": "Amended Bylaws (2024)", "document_type": "bylaws", "url": "https://docs.example.com/meridian/bylaws-2024.pdf"},
+      {"title": "Board Consent — Officer Elections", "document_type": "consent", "url": "https://docs.example.com/meridian/board-consent-officers.pdf"}
+    ]
+  },
+  {
+    "name": "Meridian Technologies LLC",
+    "jurisdiction": "DE",
+    "entity_type": "llc",
+    "formation_date_offset": -1460,
+    "registered_agent_name": "Corporation Service Company",
+    "registered_agent_address": "251 Little Falls Drive, Wilmington, DE 19808",
+    "good_standing": true,
+    "notes": "Primary operating entity for technology products and services.",
+    "officers": [
+      {"name": "Sarah Chen", "title": "officer", "role": "Manager", "term_start_offset": -730, "email": "schen@meridian.example.com"},
+      {"name": "Marcus Johnson", "title": "officer", "role": "VP Engineering", "term_start_offset": -365, "email": "mjohnson@meridian.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Annual Report", "jurisdiction": "DE", "due_date_offset": 12, "status": "pending"},
+      {"filing_type": "Statement of Information", "jurisdiction": "CA", "due_date_offset": 90, "status": "pending", "notes": "Foreign qualification filing in CA"}
+    ],
+    "documents": [
+      {"title": "Certificate of Formation", "document_type": "formation", "url": "https://docs.example.com/meridian-tech/cert-of-formation.pdf"},
+      {"title": "Operating Agreement", "document_type": "operating_agreement", "url": "https://docs.example.com/meridian-tech/operating-agreement.pdf"}
+    ]
+  },
+  {
+    "name": "Meridian Pacific Ltd.",
+    "jurisdiction": "UK",
+    "entity_type": "limited_company",
+    "formation_date_offset": -1095,
+    "registered_agent_name": "Companies House Agent Services Ltd",
+    "registered_agent_address": "71-75 Shelton Street, London, WC2H 9JQ",
+    "good_standing": true,
+    "notes": "UK subsidiary for European operations.",
+    "officers": [
+      {"name": "Emma Thompson", "title": "director", "role": "Managing Director", "term_start_offset": -1095, "email": "ethompson@meridian.example.com"},
+      {"name": "Oliver Wright", "title": "officer", "role": "Company Secretary", "term_start_offset": -730, "email": "owright@meridian.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Confirmation Statement", "jurisdiction": "UK", "due_date_offset": 45, "status": "pending"},
+      {"filing_type": "Annual Accounts", "jurisdiction": "UK", "due_date_offset": 120, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Certificate of Incorporation", "document_type": "formation", "url": "https://docs.example.com/meridian-pacific/cert-of-inc.pdf"},
+      {"title": "Articles of Association", "document_type": "articles", "url": "https://docs.example.com/meridian-pacific/articles.pdf"}
+    ]
+  },
+  {
+    "name": "Meridian California Corp.",
+    "jurisdiction": "CA",
+    "entity_type": "corporation",
+    "formation_date_offset": -730,
+    "registered_agent_name": "CT Corporation System",
+    "registered_agent_address": "818 West Seventh Street, Suite 930, Los Angeles, CA 90017",
+    "good_standing": true,
+    "notes": "West coast operations subsidiary under Meridian Technologies.",
+    "officers": [
+      {"name": "Marcus Johnson", "title": "officer", "role": "President", "term_start_offset": -365, "email": "mjohnson@meridian.example.com"},
+      {"name": "Jennifer Liu", "title": "officer", "role": "Secretary", "term_start_offset": -365, "email": "jliu@meridian.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Statement of Information", "jurisdiction": "CA", "due_date_offset": 7, "status": "pending", "notes": "Due soon — 7 days"},
+      {"filing_type": "Franchise Tax", "jurisdiction": "CA", "due_date_offset": 150, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Articles of Incorporation", "document_type": "formation", "url": "https://docs.example.com/meridian-ca/articles.pdf"}
+    ]
+  },
+  {
+    "name": "Meridian New York LLC",
+    "jurisdiction": "NY",
+    "entity_type": "llc",
+    "formation_date_offset": -365,
+    "registered_agent_name": "National Registered Agents, Inc.",
+    "registered_agent_address": "28 Liberty Street, New York, NY 10005",
+    "good_standing": false,
+    "notes": "Good standing lapsed — biennial statement overdue.",
+    "officers": [
+      {"name": "Rachel Green", "title": "officer", "role": "Manager", "term_start_offset": -365, "email": "rgreen@meridian.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Biennial Statement", "jurisdiction": "NY", "due_date_offset": -30, "status": "overdue", "notes": "OVERDUE — good standing at risk"},
+      {"filing_type": "Annual Report", "jurisdiction": "NY", "due_date_offset": 180, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Articles of Organization", "document_type": "formation", "url": "https://docs.example.com/meridian-ny/articles-of-org.pdf"}
+    ]
+  },
+  {
+    "name": "Pinnacle Ventures LP",
+    "jurisdiction": "DE",
+    "entity_type": "lp",
+    "formation_date_offset": -2190,
+    "registered_agent_name": "Corporation Service Company",
+    "registered_agent_address": "251 Little Falls Drive, Wilmington, DE 19808",
+    "good_standing": true,
+    "notes": "Investment vehicle — separate corporate family from Meridian.",
+    "officers": [
+      {"name": "Thomas Grant", "title": "officer", "role": "General Partner Representative", "term_start_offset": -2190, "email": "tgrant@pinnacle.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Annual Report", "jurisdiction": "DE", "due_date_offset": 14, "status": "pending"},
+      {"filing_type": "Partnership Tax Return", "jurisdiction": "DE", "due_date_offset": 75, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Certificate of Limited Partnership", "document_type": "formation", "url": "https://docs.example.com/pinnacle-lp/cert-of-lp.pdf"},
+      {"title": "Limited Partnership Agreement", "document_type": "partnership_agreement", "url": "https://docs.example.com/pinnacle-lp/lpa.pdf"}
+    ]
+  },
+  {
+    "name": "Pinnacle GP Inc.",
+    "jurisdiction": "DE",
+    "entity_type": "corporation",
+    "formation_date_offset": -2190,
+    "registered_agent_name": "Corporation Service Company",
+    "registered_agent_address": "251 Little Falls Drive, Wilmington, DE 19808",
+    "good_standing": true,
+    "notes": "General partner entity for Pinnacle Ventures LP.",
+    "officers": [
+      {"name": "Thomas Grant", "title": "both", "role": "President & Director", "term_start_offset": -2190, "email": "tgrant@pinnacle.example.com"},
+      {"name": "Victoria Adams", "title": "director", "role": "Director", "term_start_offset": -1460, "email": "vadams@pinnacle.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Annual Report", "jurisdiction": "DE", "due_date_offset": 30, "status": "pending"},
+      {"filing_type": "Franchise Tax", "jurisdiction": "DE", "due_date_offset": 60, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Certificate of Incorporation", "document_type": "formation", "url": "https://docs.example.com/pinnacle-gp/cert-of-inc.pdf"},
+      {"title": "Bylaws", "document_type": "bylaws", "url": "https://docs.example.com/pinnacle-gp/bylaws.pdf"}
+    ]
+  },
+  {
+    "name": "Pinnacle Fund II LLC",
+    "jurisdiction": "DE",
+    "entity_type": "llc",
+    "formation_date_offset": -730,
+    "registered_agent_name": "Corporation Service Company",
+    "registered_agent_address": "251 Little Falls Drive, Wilmington, DE 19808",
+    "good_standing": true,
+    "notes": "Second investment fund vehicle under Pinnacle Ventures.",
+    "officers": [
+      {"name": "Thomas Grant", "title": "officer", "role": "Manager", "term_start_offset": -730, "email": "tgrant@pinnacle.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Annual Report", "jurisdiction": "DE", "due_date_offset": 45, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Certificate of Formation", "document_type": "formation", "url": "https://docs.example.com/pinnacle-fund2/cert-of-formation.pdf"},
+      {"title": "Operating Agreement", "document_type": "operating_agreement", "url": "https://docs.example.com/pinnacle-fund2/operating-agreement.pdf"}
+    ]
+  },
+  {
+    "name": "Cascade Analytics Corp.",
+    "jurisdiction": "WA",
+    "entity_type": "corporation",
+    "formation_date_offset": -548,
+    "registered_agent_name": "Registered Agents Inc.",
+    "registered_agent_address": "711 Capitol Way S, Suite 204, Olympia, WA 98501",
+    "good_standing": true,
+    "notes": "Data analytics subsidiary — recently acquired by Meridian.",
+    "officers": [
+      {"name": "Priya Sharma", "title": "officer", "role": "President", "term_start_offset": -548, "email": "psharma@cascade.example.com"},
+      {"name": "Daniel O'Brien", "title": "officer", "role": "CTO", "term_start_offset": -548, "email": "dobrien@cascade.example.com"},
+      {"name": "Sarah Chen", "title": "director", "role": "Director", "term_start_offset": -180, "email": "schen@meridian.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Annual Report", "jurisdiction": "WA", "due_date_offset": 3, "status": "pending", "notes": "Due very soon!"},
+      {"filing_type": "Business License Renewal", "jurisdiction": "WA", "due_date_offset": 200, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Articles of Incorporation", "document_type": "formation", "url": "https://docs.example.com/cascade/articles.pdf"},
+      {"title": "Acquisition Agreement", "document_type": "agreement", "url": "https://docs.example.com/cascade/acquisition-agreement.pdf"}
+    ]
+  },
+  {
+    "name": "Meridian Data Services GmbH",
+    "jurisdiction": "DE-Germany",
+    "entity_type": "limited_company",
+    "formation_date_offset": -365,
+    "registered_agent_name": "Hengeler Mueller",
+    "registered_agent_address": "Bockenheimer Landstraße 24, 60323 Frankfurt am Main, Germany",
+    "good_standing": true,
+    "notes": "German subsidiary for EU data processing operations.",
+    "officers": [
+      {"name": "Klaus Weber", "title": "officer", "role": "Geschäftsführer (Managing Director)", "term_start_offset": -365, "email": "kweber@meridian.example.com"},
+      {"name": "Anna Schmidt", "title": "officer", "role": "Prokurist", "term_start_offset": -180, "email": "aschmidt@meridian.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Handelsregister Annual Filing", "jurisdiction": "DE-Germany", "due_date_offset": 90, "status": "pending"},
+      {"filing_type": "Tax Declaration", "jurisdiction": "DE-Germany", "due_date_offset": 180, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Gesellschaftsvertrag (Articles of Association)", "document_type": "formation", "url": "https://docs.example.com/meridian-gmbh/gesellschaftsvertrag.pdf"}
+    ]
+  },
+  {
+    "name": "Horizon IP Holdings LLC",
+    "jurisdiction": "NV",
+    "entity_type": "llc",
+    "formation_date_offset": -1095,
+    "registered_agent_name": "Nevada Registered Agent LLC",
+    "registered_agent_address": "311 S Division St, Carson City, NV 89703",
+    "good_standing": true,
+    "notes": "Intellectual property holding entity.",
+    "officers": [
+      {"name": "Lisa Rodríguez", "title": "officer", "role": "Manager", "term_start_offset": -1095, "email": "lrodriguez@meridian.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Annual List of Managers", "jurisdiction": "NV", "due_date_offset": -15, "status": "overdue", "notes": "Late fee may apply"},
+      {"filing_type": "Business License Renewal", "jurisdiction": "NV", "due_date_offset": 60, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Articles of Organization", "document_type": "formation", "url": "https://docs.example.com/horizon-ip/articles-of-org.pdf"},
+      {"title": "IP Assignment Agreement", "document_type": "agreement", "url": "https://docs.example.com/horizon-ip/ip-assignment.pdf"}
+    ]
+  },
+  {
+    "name": "Meridian Benefits Corp.",
+    "jurisdiction": "TX",
+    "entity_type": "corporation",
+    "formation_date_offset": -913,
+    "registered_agent_name": "CT Corporation System",
+    "registered_agent_address": "1999 Bryan St., Suite 900, Dallas, TX 75201",
+    "good_standing": true,
+    "notes": "Employee benefits and HR services subsidiary.",
+    "officers": [
+      {"name": "Karen Mitchell", "title": "officer", "role": "President", "term_start_offset": -913, "email": "kmitchell@meridian.example.com"},
+      {"name": "David Park", "title": "director", "role": "Director", "term_start_offset": -913, "email": "dpark@meridian.example.com"}
+    ],
+    "filings": [
+      {"filing_type": "Franchise Tax Report", "jurisdiction": "TX", "due_date_offset": 100, "status": "pending"},
+      {"filing_type": "Public Information Report", "jurisdiction": "TX", "due_date_offset": 100, "status": "pending"}
+    ],
+    "documents": [
+      {"title": "Certificate of Formation", "document_type": "formation", "url": "https://docs.example.com/meridian-benefits/cert-of-formation.pdf"}
+    ]
+  }
+]

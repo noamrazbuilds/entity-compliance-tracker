@@ -27,5 +27,7 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Data (real contract data should never be committed)
+# Data (real data should never be committed)
 data/real/
+data/*.db
+data/generated/

@@ -1,0 +1,51 @@
+[project]
+name = "entity-compliance-tracker"
+version = "0.1.0"
+description = "Corporate Entity & Subsidiary Compliance Tracker"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+    {name = "Noam Raz"},
+    {name = "Pleasant Secret Labs"},
+]
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.27.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "streamlit>=1.30.0",
+    "requests>=2.31.0",
+    "apscheduler>=3.10.0",
+    "python-multipart>=0.0.6",
+    "aiosmtplib>=3.0.0",
+    "jinja2>=3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "httpx>=0.27.0",
+    "ruff>=0.3.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ect_app*", "ect_frontend*"]
+
+[tool.ruff]
+line-length = 99
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"ect_app/models/*.py" = ["F821"]  # SQLAlchemy string forward references
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

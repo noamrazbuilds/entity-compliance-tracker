@@ -1,0 +1,62 @@
+[
+  {
+    "parent": "Meridian Holdings Inc.",
+    "child": "Meridian Technologies LLC",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 100.0
+  },
+  {
+    "parent": "Meridian Holdings Inc.",
+    "child": "Meridian Pacific Ltd.",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 100.0
+  },
+  {
+    "parent": "Meridian Holdings Inc.",
+    "child": "Meridian New York LLC",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 100.0
+  },
+  {
+    "parent": "Meridian Holdings Inc.",
+    "child": "Meridian Data Services GmbH",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 100.0
+  },
+  {
+    "parent": "Meridian Holdings Inc.",
+    "child": "Horizon IP Holdings LLC",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 100.0
+  },
+  {
+    "parent": "Meridian Holdings Inc.",
+    "child": "Meridian Benefits Corp.",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 100.0
+  },
+  {
+    "parent": "Meridian Technologies LLC",
+    "child": "Meridian California Corp.",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 100.0
+  },
+  {
+    "parent": "Meridian Technologies LLC",
+    "child": "Cascade Analytics Corp.",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 85.0
+  },
+  {
+    "parent": "Pinnacle GP Inc.",
+    "child": "Pinnacle Ventures LP",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 1.0
+  },
+  {
+    "parent": "Pinnacle Ventures LP",
+    "child": "Pinnacle Fund II LLC",
+    "relationship_type": "subsidiary",
+    "ownership_percentage": 100.0
+  }
+]
